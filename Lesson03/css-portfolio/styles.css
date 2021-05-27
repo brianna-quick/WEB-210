@@ -6,6 +6,12 @@ body {
 img {
     width: 300px;
 }
+a {
+    color: #ffe66d;
+}
+a:hover {
+    text-decoration: none;
+}
 
 /* Profile
 ----------------------------------*/
@@ -18,6 +24,13 @@ header {
 ----------------------------------*/
 .projects {
     background: #f7fff7;
+}
+.projects a {
+    color: #f7fff7;
+    background: #2F3061;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
 }
 
 /* Work Experience
