@@ -7,7 +7,7 @@ img {
     width: 300px;
 }
 a {
-    color: #ffe66d;
+    color: #3F3F53;
 }
 a:hover {
     text-decoration: none;
@@ -16,36 +16,71 @@ a:hover {
 /* Profile
 ----------------------------------*/
 header {
-    background: #2F3061;
-    color: #f7fff7;
+    background: #240a35;
+    color: #2293b0;
+    padding: 3px;
+    padding-left: 15px;
+    border-radius: 8px;
+}
+header a{
+    color: #a33177;
 }
 
 /* Projects
 ----------------------------------*/
 .projects {
-    background: #f7fff7;
+    background: #DEEBE6;
+    padding: 3px;
+    padding-left: 12px;
+    border-radius: 8px;
 }
 .projects a {
+    color: #2F3061;
+}
+.projects .btn {
     color: #f7fff7;
     background: #2F3061;
     text-decoration: none;
     padding: 8px;
     border-radius: 4px;
 }
+.projects .btn:hover {
+    background: rgba(47,48,97,80%);
+}
+#link {
+    float: right;
+    position: relative; right: 800px; bottom: 100px;
+    padding: 5px;
+}
 
 /* Work Experience
 ----------------------------------*/
 .work-experience {
     background: #a1c6d7;
+    padding: 3px;
+    padding-left: 12px;
+    border-radius: 8px;
 }
 
 /* Education
 ----------------------------------*/
+.education {
+    background: #DEEBE6;
+    padding: 3px;
+    padding-left: 12px;
+    border-radius: 8px;
+}
 
 /* Contact Info
 ----------------------------------*/
 footer {
-    background: #343434;
-    color: #f7fff7;
+    background: #B090AE;
+    color: #FFE7FF;
+    padding: 3px;
+    padding-left: 12px;
+    border-radius: 8px;
 }
-
+footer a{
+    color: #381E38;
+    font-weight: bold;
+}
