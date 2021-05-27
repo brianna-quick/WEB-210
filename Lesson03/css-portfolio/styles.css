@@ -11,6 +11,7 @@ img {
 ----------------------------------*/
 header {
     background: #2F3061;
+    color: #f7fff7;
 }
 
 /* Projects
@@ -30,4 +31,8 @@ header {
 
 /* Contact Info
 ----------------------------------*/
+footer {
+    background: #343434;
+    color: #f7fff7;
+}
 
