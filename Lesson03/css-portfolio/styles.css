@@ -4,7 +4,8 @@ body {
     color: #343434;
     margin: 0;
     padding: 0;
-    font-family: 'courier new', monospace;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
     background: #681f4c;
 }
 img {
@@ -15,6 +16,9 @@ a {
 }
 a:hover {
     text-decoration: none;
+}
+h1, h2 {
+    font-family: 'Fredoka One', cursive;
 }
 .content-wrap {
     width: 800px;
