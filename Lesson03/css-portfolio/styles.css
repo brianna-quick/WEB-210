@@ -1,11 +1,18 @@
 /* Global styles
 ----------------------------------*/
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
 body {
     color: #343434;
     margin: 0;
     padding: 0;
     font-family: 'Oswald', sans-serif;
-    font-size: 18px;
+    font-size: 16px;
+    line-height: 1.5;
     background: #681f4c;
 }
 img {
@@ -17,8 +24,15 @@ a {
 a:hover {
     text-decoration: none;
 }
+h1 {
+    font-size: 40px;
+}
+h2{
+    font-size: 25px;
+}
 h1, h2 {
     font-family: 'Fredoka One', cursive;
+    font-weight: 400;
 }
 .content-wrap {
     width: 800px;
@@ -51,7 +65,6 @@ header a{
     margin: 15px;
 }
 .projects section {
-    display: table-cell;
     padding: 10px;
 }
 .projects a {
@@ -69,17 +82,18 @@ header a{
 .projects .btn:hover {
     background: rgba(47,48,97,80%);
 }
-#link {
-    float: right;
-    position: relative; right: 230px; bottom: 5px;
+.project-item {
+    overflow: hidden;
+    border-bottom: 1px dashed #2F3061;
+    padding: 25px 0;
 }
-#project2 {
-    padding-right: 25px;
+.project-item img{
+    float: left;
+    margin-right: 20px;
 }
-#project3 {
-    padding-right: 25px;
+.project-item h3{
+    margin-top: 0;
 }
-
 /* Work Experience
 ----------------------------------*/
 .work-experience {
