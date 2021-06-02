@@ -26,7 +26,7 @@ a:hover {
 }
 h1 {
     font-size: 45px;
-    text-shadow: 2px 2px #a33177;
+    text-shadow: 3px 3px #a33177;
     text-indent: -20px;
 }
 h2{
@@ -148,9 +148,17 @@ header h2 {
     width: 450px;
     padding: 10px;
     padding-left: 0;
+    padding-top: 0;
 }
 .education h2 {
     text-indent: -20px;
+    margin-bottom: 0;
+}
+.education h3 {
+    border-bottom: 2px solid tomato;
+}
+#education2 {
+    width: 450px;
 }
 
 
