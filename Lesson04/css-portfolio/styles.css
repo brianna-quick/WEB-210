@@ -27,7 +27,7 @@ a:hover {
 h1 {
     font-size: 45px;
     text-shadow: 3px 3px #a33177;
-    text-indent: -20px;
+    text-indent: -40px;
 }
 h2{
     font-size: 30px;
@@ -41,14 +41,73 @@ h1, h2 {
     margin: 0 auto;
 }
 
+/* Navigation
+----------------------------------*/
 
+nav {
+    position: fixed;
+    background: #2293b0;
+    color: tomato;
+    height: 150%;
+    margin-top: -25px;
+    left: -30px;
+    padding-right: 15px;
+    width: 175px;
+}
+nav a{
+    color: #240a35;    /*main categories*/
+    font-family: 'Fredoka One', cursive;
+    font-size: 24px;
+}
+nav ul{
+    text-align: left;
+}
+nav li ul{
+    position: absolute;
+    left: -999em;
+}
+
+nav ul li ul li:hover{
+    background: #691F4C;
+    border-radius: 4px;
+    padding-bottom: 1px;
+    padding-left: 4px;
+    padding-right: 1px;
+
+}
+nav ul li{
+    list-style: none;
+    position: relative;
+    padding-top: 0;
+    padding-bottom: 80px;
+}
+ul li ul {  
+    padding: 0;                          
+    margin-left: 20px;                   
+    position: absolute;             
+    top: 8px;                       
+    left: -10000px;                 
+    width: 100px;                 
+}
+nav li:hover ul{
+    left: auto;
+}
+nav li ul li{
+    padding: 0;
+    top: 30px;
+}
+nav ul li ul li a{     /* sub-categories */
+    color: antiquewhite;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+}
 /* Profile
 ----------------------------------*/
 header {
     background: #240a35;
     color: #2293b0;
     padding-top: 1px;
-    padding-left: 15px;
+    padding-left: 12%;
     padding-right: 15px;
     padding-bottom: 18px;
     border-radius: 8px;
@@ -68,17 +127,18 @@ header h2 {
     background: #DEEBE6;
     padding: 3px;
     padding-top: 25px;
-    padding-left: 12px;
+    padding-left: 12%;
     padding-bottom: 25px;
     border-radius: 8px;
     margin: 15px;
 }
+
 .projects section {
     padding: 15px;
 }
 .projects h2 {
     margin-top: 0;
-    text-indent: -20px;
+    text-indent: -40px;
 }
 .projects a {
     color: tomato;
@@ -107,6 +167,10 @@ header h2 {
 .project-item h3{
     margin-top: 0;
 }
+.project-item p {
+    padding-bottom: 25px;
+}
+
 #project3 {
     border-bottom: 2px solid #2F3061;
 }
@@ -115,7 +179,7 @@ header h2 {
 .work-experience {
     background: #a1c6d7;
     padding: 3px;
-    padding-left: 12px;
+    padding-left: 12%;
     border-radius: 8px;
     padding-bottom: 15px;
     color: #240a35;
@@ -126,7 +190,7 @@ header h2 {
     font-weight: bold;
 }
 .work-experience h2 {
-    text-indent: -20px;
+    text-indent: -40px;
     margin-top: 0;
     padding-top: 25px;
 }
@@ -139,19 +203,19 @@ header h2 {
 .education {
     background: #DEEBE6;
     padding: 3px;
-    padding-left: 12px;
+    padding-left: 12%;
     border-radius: 8px;
     margin: 15px;
 }
 .education section {
     display: table-cell;
     width: 450px;
-    padding: 10px;
+    padding: 30px;
     padding-left: 0;
     padding-top: 0;
 }
 .education h2 {
-    text-indent: -20px;
+    text-indent: -40px;
     margin-bottom: 0;
 }
 .education h3 {
@@ -170,13 +234,13 @@ footer {
     background: #B090AE;
     color: #FFE7FF;
     padding: 3px;
-    padding-left: 12px;
+    padding-left: 12%;
     padding-bottom: 20px;
     border-radius: 8px;
     margin: 15px;
 }
 footer h2{
-    text-indent: -20px;
+    text-indent: -40px;
     position: relative;
     top: 25px;
     font-size: 35px;
